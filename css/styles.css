@@ -1,0 +1,336 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration:none
+}
+
+@font-face {
+  font-family: "filosofia";
+  src: url("./FilosofiaOTRegular.otf") format("opentype");
+}
+
+body{
+  box-sizing: border-box;
+  position: relative;
+  left: 0;
+  right: 0;
+  background-image: url(https://luca.restaurant/wp-content/themes/luca-v2/assets/img/global-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+
+ font-family: "filosofia";
+ font-weight: 400;
+  font-variant-numeric: oldstyle-nums;
+  font-size: 1.375rem;
+}
+
+.navbar{
+position: absolute;
+margin: 0px;
+height: 50px;
+text-align: left;
+background-color: transparent;
+font-size: 0.9em;
+top: 20px;
+left: 20px;
+}
+
+.container{
+position:relative;
+}
+
+.container >img{
+height:100vh;
+width: 100%;
+object-fit: cover;
+}
+
+.logoimage{
+position: absolute;
+width: 25%;
+top: 40%;
+right: 35%
+}
+
+.homepicture >img{
+height:100vh;
+width: 100vw;
+object-fit: cover;
+}
+
+.homefooter{
+position: absolute;
+margin: 0;
+padding: 0px;
+bottom: 10px;
+left: 10px;
+right: 10px;
+ color: #f1f1f1;
+ display: flex;
+ justify-content: space-between;
+}
+
+.section1{
+  text-align: center;
+  padding: 10rem ;
+  color: black;
+  background-color: #eaeaea;
+  mix-blend-mode: hard-light;
+}
+
+.section2{
+display: flex;
+/* position: relative; */
+}
+
+.section2 >img{
+  width: 50%;
+  height: 95vh;
+  object-fit: cover;
+}
+
+.sectionRP{
+display: flex;
+/* position: relative; */
+}
+
+.sectionRP >img{
+  width: 50%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.section4{
+display: flex;
+/* position: relative; */
+}
+
+.section4 >img{
+  width: 50%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.section3{
+  text-align: center;
+  mix-blend-mode: hard-light;
+}
+
+.button{
+  border: 2px solid black;
+  color: black;
+  background-color: transparent;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2{
+  border: 2px solid white;
+  color: black;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3{
+  border: 2px solid white;
+  color: black;
+  background-color: white;
+  padding: 15px 0px;
+  width: 190px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+}
+
+.button4{
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.orangebg{
+background-color: #EFA495;
+color:black;
+width: 50%;
+mix-blend-mode: hard-light;
+text-align: center;
+justify-content: space-between;
+}
+
+.container1{
+  margin-top: 110px;
+}
+.container1>img{
+    width: 35%;
+  }
+
+.container2{
+  margin-top: 120px;
+}
+.container2>img{
+    width: 35%;
+  }
+
+  .container3{
+    width: 100%;
+    background-color: #5E829E;
+  }
+  .container3>img{
+      width: 35%;
+    }
+
+  .container4{
+    width: 100%;
+  }
+  .container4>img{
+      width: 17%;
+   }
+
+   .container5{
+     margin: 50px;
+     width: 100%;
+     background-color: #ffffc8;
+   }
+   .container5>img{
+       width: 18%;
+     }
+
+.background3{
+  background-color: #E89856;
+  width: 50%;
+  color: black;
+  mix-blend-mode: hard-light;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.background4{
+  background-color: #E2D8C5;
+  width: 50%;
+  color:black;
+  mix-blend-mode: hard-light;
+  text-align: center;
+}
+
+.background5{
+  background-color: #E9E3A4;
+  width: 50vw;
+  color: black;
+  mix-blend-mode: hard-light;
+  text-align: center;
+}
+.background6{
+  background-color: #5E829E;
+  mix-blend-mode: hard-light;
+  text-align: center;
+    width: 50%;
+}
+
+.background7{
+  background-color: #4d708e;
+  text-align: center;
+    width: 50%;
+}
+.background8{
+  background-color: #b9a580;
+  text-align: center;
+    width: 100%;
+}
+
+.underlinetext{
+  text-decoration: underline;
+}
+
+footer{
+  align-items: center;
+  text-align: center;
+  background-color: #ffffc8;
+  color: black;
+  width:100%
+}
+
+.slideshow-container {
+  max-width: 100vw;
+  position: relative;
+  margin: 0;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides >img{
+ height: 750px;
+ object-fit: cover;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:active {
+  color: white;
+}
